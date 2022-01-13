@@ -1,0 +1,91 @@
+body{font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(113, 158, 216);
+
+}
+form {
+    /* isquierda de la página */
+    margin: 0 auto;
+    width: 1000px;
+    padding: 2em;
+    border: 3px solid #CCC;
+    border-radius: 2em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 2px;
+    margin: 2px;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 95px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+       Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+    font: 1em sans-serif;
+
+  
+    /* Hacer coincidir los bordes del campo del formulario */
+    border: 3px solid #999;
+  }
+  
+  .button {
+    /* Alinear los botones con los campos de texto */
+    padding-left: 100px; /* mismo tamaño que los elementos de la etiqueta */
+  }
+  
+  button {
+    /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+       entre las etiquetas y sus campos de texto */
+    margin-left: 9em;
+  }
+#permiso{
+    font-size: 20px;
+
+
+}
+button, input, select, textarea {
+    font-family : inherit;
+    font-size   : 100%;
+  }
+  input, textarea, select, button {
+    width : 150px;
+    margin: 0;
+  
+    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+       -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+            box-sizing: border-box;
+  }
+  legend {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+  h1 {
+    position : absolute;
+    left : 200px;
+    top  : 0px;
+    color: solid black;  
+    font : 2em "typewriter",Georgia, 'Times New Roman', Times, serif; ;
+  }
+  h4{
+    font-size: 18px;
+    color: solid black;
+  }
+  #firma{
+    border-bottom: solid black 2px;
+
+  }
+  #fecha{
+    border-bottom: solid black 2px;
+  }

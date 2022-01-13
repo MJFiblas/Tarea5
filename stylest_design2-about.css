@@ -1,0 +1,51 @@
+body{ background-color: lightskyblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+h1{
+   font-size: 2vw;
+   color: black;
+   margin-top: 2vw;
+   margin-top: 5vw;
+}
+#menu{
+    margin-left: 1vw;
+    margin: 1vw;
+    font-size: 2vw;
+}
+#Menu1{
+    background-image: url("design2_image1.jpg");
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 30vw;
+    margin: auto;
+}
+
+img
+{
+    margin-top: 1vw;
+    width: 100%;
+}  
+#topic
+{
+    font-size: large;
+    text-decoration: whitesmoke;
+    background-color: rgb(161, 112, 207);
+    border: 0.3vw solid black;
+    justify-content: center;
+    
+    
+    
+}
+h2{
+    font-size: 20px;
+    color:black;
+    margin:2px;
+}
+
+
+#logo{width: 15%;}
+#schedule{
+    margin-left: 320px;
+    margin-top: -230px;
+    font-size: 2vw;
+}
